@@ -8,7 +8,7 @@ function map(array, func) {
 
 function reduce(array, func, start = 0) {
   let returnValue = start;
-  for (const element of array) {
+  for (let i = start > 0 ?) {
     returnValue = func(element, returnValue);
   }
   return returnValue;
