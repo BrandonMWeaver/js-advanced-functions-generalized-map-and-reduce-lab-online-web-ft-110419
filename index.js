@@ -6,7 +6,7 @@ function map(array, func) {
   return newArray;
 }
 
-function reduce(array, start = 0, func) {
+function reduce(array, func, start = 0) {
   for (const element of array) {
     func(element);
   }
